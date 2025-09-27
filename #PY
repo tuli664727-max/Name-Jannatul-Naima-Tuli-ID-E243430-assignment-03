@@ -1,0 +1,36 @@
+/*
+* Course: Competitive Programming Sessional (CCE-2310)
+**Assignment no 3*
+Code from *codeforce* Sheet #1(A-Z)
+⁠* Problem ID: #PY
+* Author: Jannatul Naima Tuli (ID:E243430)
+* Language/Version: GNU G++17 7.3.0
+* codeforce Profile: https://codeforces.com/profile/Tuli123
+* Date:2025-09-27
+* ⁠Statement :https://codeforces.com/group/MWSDmqGsZm/contest/219158#PY
+* ⁠
+*/
+
+1. #include <iostream>
+2. using namespace std;
+3.  
+4. int main() {
+5.    long long A, B, C, D;
+6.    cin >> A >> B >> C >> D;
+7.  
+8.    // Multiply with mod 100 at each step
+9.    long long result = 1;
+10.    result = (result * (A % 100)) % 100;
+11.    result = (result * (B % 100)) % 100;
+12.    result = (result * (C % 100)) % 100;
+13.    result = (result * (D % 100)) % 100;
+14.  
+15.    // Print last two digits (with leading zero if needed)
+16.    if (result < 10) {
+17.        cout << "0" << result << endl;
+18.    } else {
+19.        cout << result << endl;
+20.    }
+21.  
+22.    return 0;
+23. }
