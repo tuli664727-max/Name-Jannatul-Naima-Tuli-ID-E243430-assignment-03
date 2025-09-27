@@ -1,0 +1,36 @@
+/*
+* Course: Competitive Programming Sessional (CCE-2310)
+**Assignment no 3*
+Code from *codeforce* Sheet #1(A-Z)
+⁠* Problem ID: #PO
+* Author: Jannatul Naima Tuli (ID:E243430)
+* Language/Version: GNU G++17 7.3.0
+* codeforce Profile: https://codeforces.com/profile/Tuli123
+* Date:2025-09-27
+* ⁠Statement :https://codeforces.com/group/MWSDmqGsZm/contest/219158#PO
+* ⁠
+*/
+
+
+1. #include <iostream>
+2. using namespace std;
+3.  
+4. int main() {
+5.    int A, B;
+6.    char S;
+7.    
+8.    // Input format: A S B (like 7+54)
+9.    cin >> A >> S >> B;
+10.  
+11.    if (S == '+') {
+12.        cout << A + B << endl;
+13.    } else if (S == '-') {
+14.        cout << A - B << endl;
+15.    } else if (S == '*') {
+16.        cout << A * B << endl;
+17.    } else if (S == '/') {
+18.        cout << A / B << endl; // integer division
+19.    }
+20.  
+21.    return 0;
+22. }
