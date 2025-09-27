@@ -1,0 +1,38 @@
+/*
+* Course: Competitive Programming Sessional (CCE-2310)
+**Assignment no 3*
+Code from *codeforce* Sheet #1(A-Z)
+⁠* Problem ID: #PU
+* Author: Jannatul Naima Tuli (ID:E243430)
+* Language/Version: GNU G++17 7.3.0
+* codeforce Profile: https://codeforces.com/profile/Tuli123
+* Date:2025-09-27
+* ⁠Statement :https://codeforces.com/group/MWSDmqGsZm/contest/219158#PU
+* ⁠
+*/
+
+
+1. #include <iostream>
+2. #include <cmath>
+3. #include <iomanip>
+4. using namespace std;
+5.  
+6. int main() {
+7.    double N;
+8.    cin >> N;
+9.  
+10.    // Separate integer and decimal parts
+11.    int integerPart = (int)N;
+12.    double decimalPart = N - integerPart;
+13.  
+14.    // Check if decimal part is effectively zero
+15.    if (fabs(decimalPart) < 1e-9) {
+16.        // It's an integer
+17.        cout << "int " << integerPart << endl;
+18.    } else {
+19.        // It's a float
+20.        cout << "float " << integerPart << " " << decimalPart << endl;
+21.    }
+22.  
+23.    return 0;
+24. }
