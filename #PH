@@ -1,0 +1,34 @@
+/*
+* Course: Competitive Programming Sessional (CCE-2310)
+**Assignment no 3*
+Code from *codeforce* Sheet #1(A-Z)
+⁠* Problem ID: #PH
+* Author: Jannatul Naima Tuli (ID:E243430)
+* Language/Version: GNU G++17 7.3.0
+* codeforce Profile: https://codeforces.com/profile/Tuli123
+* Date:2025-09-27
+* ⁠Statement :https://codeforces.com/group/MWSDmqGsZm/contest/219158#PH
+* ⁠
+*/
+
+1. #include <iostream>
+2. #include <cmath> // For floor, ceil, round
+3.  
+4. using namespace std;
+5.  
+6. int main() {
+7.    int A, B;
+8.    cin >> A >> B;
+9.  
+10.    double result = (double)A / B;
+11.  
+12.    int floor_result = floor(result);
+13.    int ceil_result = ceil(result);
+14.    int round_result = round(result);
+15.  
+16.    cout << "floor " << A << " / " << B << " = " << floor_result << endl;
+17.    cout << "ceil " << A << " / " << B << " = " << ceil_result << endl;
+18.    cout << "round " << A << " / " << B << " = " << round_result << endl;
+19.  
+20.    return 0;
+21. }
