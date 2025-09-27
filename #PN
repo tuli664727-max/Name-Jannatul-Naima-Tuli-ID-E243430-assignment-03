@@ -1,0 +1,31 @@
+/*
+* Course: Competitive Programming Sessional (CCE-2310)
+**Assignment no 3*
+Code from *codeforce* Sheet #1(A-Z)
+⁠* Problem ID: #PN
+* Author: Jannatul Naima Tuli (ID:E243430)
+* Language/Version: GNU G++17 7.3.0
+* codeforce Profile: https://codeforces.com/profile/Tuli123
+* Date:2025-09-27
+* ⁠Statement :https://codeforces.com/group/MWSDmqGsZm/contest/219158#PN
+* ⁠
+*/
+
+
+1. #include <iostream>
+2. using namespace std;
+3.  
+4. int main() {
+5.    char X;
+6.    cin >> X;
+7.  
+8.    if (X >= 'a' && X <= 'z') {
+9.        // Convert lowercase to uppercase
+10.        cout << char(X - 32) << endl;
+11.    } else if (X >= 'A' && X <= 'Z') {
+12.        // Convert uppercase to lowercase
+13.        cout << char(X + 32) << endl;
+14.    }
+15.  
+16.    return 0;
+17. }
