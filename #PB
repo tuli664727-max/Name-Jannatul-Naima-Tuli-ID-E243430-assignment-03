@@ -1,0 +1,35 @@
+/*
+* Course: Competitive Programming Sessional (CCE-2310)
+**Assignment no 3*
+Code from *codeforce* Sheet #1(A-Z)
+⁠* Problem ID: #PB
+* Author: Jannatul Naima Tuli (ID:E243430)
+* Language/Version: GNU G++17 7.3.0
+* codeforce Profile: https://codeforces.com/profile/Tuli123
+* Date:2025-09-27
+* ⁠Statement :https://codeforces.com/group/MWSDmqGsZm/contest/219158#PB
+* ⁠
+*/
+
+1. #include <iostream>
+2. using namespace std;
+3.  
+4. int main() {
+5.    int i;
+6.    long long ll;
+7.    char ch;
+8.    float f;
+9.    double d;
+10.  
+11.    // Reading inputs
+12.    cin >> i >> ll >> ch >> f >> d;
+13.  
+14.    // Printing outputs (each in a new line)
+15.    cout << i << endl;
+16.    cout << ll << endl;
+17.    cout << ch << endl;
+18.    cout << f << endl;
+19.    cout << d << endl;
+20.  
+21.    return 0;
+22. }
