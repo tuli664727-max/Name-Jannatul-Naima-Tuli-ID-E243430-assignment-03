@@ -1,0 +1,32 @@
+/*
+* Course: Competitive Programming Sessional (CCE-2310)
+**Assignment no 3*
+Code from *codeforce* Sheet #1(A-Z)
+⁠* Problem ID: #PR
+* Author: Jannatul Naima Tuli (ID:E243430)
+* Language/Version: GNU G++17 7.3.0
+* codeforce Profile: https://codeforces.com/profile/Tuli123
+* Date:2025-09-27
+* ⁠Statement :https://codeforces.com/group/MWSDmqGsZm/contest/219158#PR
+* ⁠
+*/
+
+1. #include <iostream>
+2. using namespace std;
+3.  
+4. int main() {
+5.    int N;
+6.    cin >> N;
+7.  
+8.    int years = N / 365;         // Number of full years
+9.    int remaining_days = N % 365; // Days left after years
+10.  
+11.    int months = remaining_days / 30; // Number of full months
+12.    int days = remaining_days % 30;   // Remaining days
+13.  
+14.    cout << years << " years" << endl;
+15.    cout << months << " months" << endl;
+16.    cout << days << " days" << endl;
+17.  
+18.    return 0;
+19. }
