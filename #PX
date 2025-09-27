@@ -1,0 +1,32 @@
+/*
+* Course: Competitive Programming Sessional (CCE-2310)
+**Assignment no 3*
+Code from *codeforce* Sheet #1(A-Z)
+⁠* Problem ID: #PX
+* Author: Jannatul Naima Tuli (ID:E243430)
+* Language/Version: GNU G++17 7.3.0
+* codeforce Profile: https://codeforces.com/profile/Tuli123
+* Date:2025-09-27
+* ⁠Statement :https://codeforces.com/group/MWSDmqGsZm/contest/219158#PX
+* ⁠
+*/
+
+1. #include <iostream>
+2. #include <algorithm> // for max and min
+3. using namespace std;
+4.  
+5. int main() {
+6.    long long l1, r1, l2, r2;
+7.    cin >> l1 >> r1 >> l2 >> r2;
+8.  
+9.    long long left = max(l1, l2);
+10.    long long right = min(r1, r2);
+11.  
+12.    if (left <= right) {
+13.        cout << left << " " << right << endl;
+14.    } else {
+15.        cout << -1 << endl;
+16.    }
+17.  
+18.    return 0;
+19. }
