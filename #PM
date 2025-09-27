@@ -1,0 +1,35 @@
+/*
+* Course: Competitive Programming Sessional (CCE-2310)
+**Assignment no 3*
+Code from *codeforce* Sheet #1(A-Z)
+⁠* Problem ID: #PM
+* Author: Jannatul Naima Tuli (ID:E243430)
+* Language/Version: GNU G++17 7.3.0
+* codeforce Profile: https://codeforces.com/profile/Tuli123
+* Date:2025-09-27
+* ⁠Statement :https://codeforces.com/group/MWSDmqGsZm/contest/219158#PM
+* ⁠
+*/
+
+1. #include <iostream>
+2. using namespace std;
+3.  
+4. int main() {
+5.    char X;
+6.    cin >> X;
+7.  
+8.    if (X >= '0' && X <= '9') {
+9.        // If X is a digit
+10.        cout << "IS DIGIT" << endl;
+11.    } else {
+12.        // If X is an alphabet
+13.        cout << "ALPHA" << endl;
+14.        if (X >= 'A' && X <= 'Z') {
+15.            cout << "IS CAPITAL" << endl;
+16.        } else if (X >= 'a' && X <= 'z') {
+17.            cout << "IS SMALL" << endl;
+18.        }
+19.    }
+20.  
+21.    return 0;
+22. }
