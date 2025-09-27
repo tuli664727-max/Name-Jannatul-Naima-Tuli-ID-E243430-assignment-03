@@ -1,0 +1,28 @@
+/*
+* Course: Competitive Programming Sessional (CCE-2310)
+**Assignment no 3*
+Code from *codeforce* Sheet #1(A-Z)
+⁠* Problem ID: #PE
+* Author: Jannatul Naima Tuli (ID:E243430)
+* Language/Version: GNU G++17 7.3.0
+* codeforce Profile: https://codeforces.com/profile/Tuli123
+* Date:2025-09-27
+* ⁠Statement :https://codeforces.com/group/MWSDmqGsZm/contest/219158#PE
+* ⁠
+*/
+
+1. #include <iostream>
+2. #include <iomanip>
+3. using namespace std;
+4.  
+5. int main() {
+6.    double R;
+7.    cin >> R;
+8.  
+9.    const double PI = 3.141592653;
+10.    double area = PI * R * R;
+11.  
+12.    cout << fixed << setprecision(9) << area << endl;
+13.  
+14.    return 0;
+15. }
